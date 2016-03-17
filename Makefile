@@ -2,7 +2,7 @@
 
 VERSION = 2.0.0
 CFLAGS  = -O3
-LDFLAGS = -static
+LDFLAGS =
 PREFIX  = /usr/local
 BINDIR  = $(PREFIX)/bin
 MANDIR  = $(PREFIX)/man/man1

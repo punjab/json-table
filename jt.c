@@ -112,7 +112,7 @@ char *read_stream(FILE *in) {
   size_t  ret_size     = 0;
   size_t  ret_newsize  = 0;
   size_t  ret_capacity = BUFSIZ * 2.5;
-  ssize_t bytes_r      = NULL;
+  ssize_t bytes_r      = 0;
   int     fd           = fileno(in);
 
   ret = jmalloc(ret_capacity);
